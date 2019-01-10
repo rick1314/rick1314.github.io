@@ -79,13 +79,14 @@
           <h1 class="mb-0">Debopriyo
             <span class="text-primary">Bhattacharya</span>
           </h1>
-          <div class="subheading mb-5">Syracuse University
+          <div class="subheading mb-5">Syracuse University <img id="image" style="margin-bottom: 6px;">
           </div>
-
+          <canvas id="textCanvas" height=26 width=140></canvas>
           <br>
           <p class="mb-5"> Hello and Welcome to my website. My name is <strong> Debopriyo Bhattacharya. </strong>  I'm a graduate student at <a href="https://www.syr.edu"> Syracuse University </a> pursuing an MS in Computer Science. I have a penchant for <a href="https://news.ycombinator.com/" target="_blank">technology</a>, <a href="https://www.investopedia.com/" target="_blank">finance </a> and <a href="https://www.imdb.com/chart/top" target="_blank">movies. </a> </p> 
           
-          <p class ="mb-5"> Currently, I'm looking for a software development internship opportunity for the summer of 2019. I'm looking for an individual contributor role where I can take on on collaborative team leadership responsibilites, and gain experience with architecture and project management. You can reach me <a class="js-scroll-trigger" href="#contact">here</a>. Download my resume from <a href="./assets/resume.pdf">here</a>. </p>
+          <p class ="mb-5"> Currently, I'm looking for a software development internship opportunity for the summer of 2019. I'm looking for an individual contributor role where I can take on on collaborative team leadership responsibilites, and gain experience with architecture and project management. Download my resume from <a href="./assets/resume.pdf">here</a>. You can reach me   <a class="js-scroll-trigger" href="#contact">here</a>. </p>
+          
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/physicaldrive">
@@ -391,8 +392,9 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
         <div class="my-auto">
           <h2 class="mb-5">Contact Me</h2>
+          
         </div>
-				<form  action="//formspree.io/debhatta@syr.edu" method="POST" name="sentMessage" id="contactForm" novalidate>
+				<form  action="" onclick="(function(){action='//formspree.io/'+window.atob('ZGViaGF0dGFAc3lyLmVkdQ=='); console.log(action);})()" method="POST" name="sentMessage" id="contactForm" novalidate>
 							<div class="subheading mb-3">Name</div>
 							<input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
 							<p class="help-block text-danger"></p>
