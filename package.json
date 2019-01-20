@@ -1,27 +1,32 @@
 {
-  "name": "DebSec Source",
-  "description": "Personal Website",
-  "author": "rick1314",
-  "version": "0.1.5",
-  "devDependencies": {
-    "browser-sync": "2.24.5",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "3.9.4",
-    "gulp-header": "2.0.5",
-    "gulp-rename": "1.3.0",
-    "gulp-sass": "4.0.1",
-    "gulp-uglify": "3.0.0"
-  },
-  "homepage": "https://debsec.com",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template",
-    "simple",
-    "resume"
-  ],
-  "license": "MIT"
+	"description": "Personal Website",
+	"author": "Debo",
+	"devDependencies": {
+		"browser-sync": "2.24.5",
+		"gulp": "^3.9.1",
+		"gulp-clean-css": "3.9.4",
+		"gulp-header": "2.0.5",
+		"gulp-rename": "1.3.0",
+		"gulp-sass": "4.0.1",
+		"gulp-uglify": "3.0.0"
+	},
+	"homepage": "https://debsec.com",
+	"keywords": [
+		"css",
+		"sass",
+		"html",
+		"responsive",
+		"theme",
+		"template",
+		"simple",
+		"resume"
+	],
+	"license": "MIT",
+	"name": "startbootstrap-resume",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
+	},
+	"title": "Resume",
+	"version": "4.1.1"
 }
