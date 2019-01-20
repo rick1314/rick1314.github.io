@@ -6,6 +6,6 @@ Personal Website  [![Build Status](https://api.travis-ci.org/rick1314/rick1314.g
 View my site in action [here](https://rick1314.github.io/)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/rick1314/rick1314.github.io/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/rick1314/rick1314.github.io/master/img/screenshot.png)
 
 ---------
